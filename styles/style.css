@@ -202,6 +202,9 @@ label[for="name"], label[for="message"],input[type="submit"]{
         margin-top: 20px;
 
  }
+ label{
+        margin-bottom: 10px;
+ }
 textarea{
         width: 495px;
         height:135px ;
