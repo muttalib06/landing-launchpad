@@ -3,11 +3,12 @@
         padding: 0;
         box-sizing: border-box;
 }
-body{
+body{     background-color:rgb(78, 71, 255,0.1);
           font-family: "Raleway", sans-serif;
           font-optical-sizing: auto;
           font-weight: <weight>;
           font-style: normal;
+        
 
 }
 
@@ -125,6 +126,116 @@ main{
 }
 .data-sub-title{
         font-size: 20px;
+}
+
+/* user's feedback styles */
+.users-feedback{
+        margin-top: 140px;
+        text-align: center;
+
+}
+.feedback-container{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+}
+.feedback{
+        background-color:#FFFFFF;
+        text-align: left;
+        width: 360px;
+        height: 240px;
+        padding: 24px;
+        border-radius: 15px;
+}
+.users-content,.reviewer-img{
+        margin-top: 24px;
+}
+.reviewer-img{
+        display: flex;
+        gap: 12px;
+}
+.users-content p{
+        margin-top: 8px;
+}
+.reviewer-img img{
+        width: 40px;
+        height: 40px;
+        border-radius: 9999px;
+}
+.star{
+        color: #FFB805;
+}
+.name{
+        color: #757575;
+        font-weight: 500;
+}
+.date{
+        color: #B3B3B3;
+}
+
+
+/* touch section styles */
+.touch{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 95px;
+        padding: 70px 0;
+}
+.form-title{
+        font-size: 95px;
+        font-weight: bold;
+}
+label,input,textarea{
+        display: block;
+}
+input{
+        width: 495px;
+        height: 70px;
+        padding: 8px;
+        border: none;
+
+}
+label[for="name"], label[for="message"],input[type="submit"]{
+        margin-top: 20px;
+
+ }
+textarea{
+        width: 495px;
+        height:135px ;
+        padding: 20px 24px;
+        border: none;
+        resize: none;
+}
+
+/* footer styles */
+
+footer{
+        text-align: center;
+        background-color: #FFFFFF;
+        margin-top: 70px;
+        padding: 80px;
+}
+.footer-title{
+        font-size: 100px;
+        font-weight: 900;
+}
+.footer-des{
+        color: #8987A1;
+}
+
+ul li{
+        list-style: none;
+}
+ul li a {
+        text-decoration: none;
+        color:#8987A1 ;
+}
+ul{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top:20px;
 }
 
 
