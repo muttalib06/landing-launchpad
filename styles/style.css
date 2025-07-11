@@ -29,7 +29,7 @@ body{     background-color:rgb(78, 71, 255,0.1);
 }
 .primary-btn:hover{
         transform: scale(1.1);
-        background-color: #FFB805;
+        background-color: #6ca12b;
 }
 .primary-inter-text{
         color: #4E47FF;
