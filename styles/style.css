@@ -193,8 +193,9 @@ label,input,textarea{
 input{
         width: 495px;
         height: 70px;
-        padding: 8px;
+        padding: 20px 24px;
         border: none;
+        border-radius: 10px;
 
 }
 label[for="name"], label[for="message"],input[type="submit"]{
@@ -207,6 +208,7 @@ textarea{
         padding: 20px 24px;
         border: none;
         resize: none;
+        border-radius: 10px;
 }
 
 /* footer styles */
