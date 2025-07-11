@@ -25,10 +25,11 @@ body{     background-color:rgb(78, 71, 255,0.1);
         color: white;
         border-radius: 10px;
         border: none;
-        transition: transform 0.3s;
+        transition:background-color 0.3s ease, transform 0.3s;
 }
 .primary-btn:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
+        background-color: #FFB805;
 }
 .primary-inter-text{
         color: #4E47FF;
